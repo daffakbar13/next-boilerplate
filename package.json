@@ -1,0 +1,58 @@
+{
+  "name": "portfolio",
+  "author": {
+    "name": "M. Daffa R. A.",
+    "email": "daffaraihan03@gmail.com"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev -p 1009",
+    "build": "next build",
+    "start": "next start -p 1009",
+    "lint": "next lint",
+    "fix": "prettier --write . && eslint --fix --ext .js,.ts,.tsx ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
+    "detector-js": "^2.0.11",
+    "device-detector-js": "^3.0.3",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "lodash": "^4.17.21",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.6.0",
+    "react-query": "^3.39.3",
+    "typescript": "5.2.2",
+    "typewriter-effect": "^2.20.1",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@types/lodash": "^4.14.198",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "autoprefixer": "^10.4.12",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-sonarjs": "^0.12.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.1",
+    "prettier": "^2.5.1"
+  }
+}
